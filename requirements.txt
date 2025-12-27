@@ -1,3 +1,18 @@
-altair
-pandas
+# requirements.txt
+
+# UI
 streamlit
+
+# Existing
+chromadb
+sentence-transformers
+# tqdm
+
+# LLM Providers
+openai
+groq
+google-genai
+
+# Utils
+python-dotenv
+pydantic-settings
