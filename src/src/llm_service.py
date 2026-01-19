@@ -1,14 +1,22 @@
-from google import genai
-from google.genai import types
-from groq import Groq
-from openai import OpenAI
-from src.config import ACTIVE_PROVIDER, LLM_CONFIG
+from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_groq import ChatGroq
+from langchain_openai import ChatOpenAI
+from langchain_core.messages import SystemMessage, HumanMessage
+
+from src.config import LLM_CONFIG
 
 class LLMService:
-    def __init__(self):
-        self.provider = ACTIVE_PROVIDER
+    def __init__(self, provider="groq"):
+        self.provider = provider
         self.config = LLM_CONFIG[self.provider]
-        self.client = self._initialize_client()
+        
+        # Fallback jika provider salah
+        if not self.config:
+            self.provider = "groq"
+            self.config = LLM_CONFIG["groq"]  
+                  
+        # self.client = self._initialize_client()
+        self.llm = self._initialize_client()
         print(f"🤖 LLM Service Terhubung: {self.provider.upper()} | Model: {self.config['model']}")
 
     def _initialize_client(self):
@@ -18,67 +26,49 @@ class LLMService:
         if not api_key:
             raise ValueError(f"❌ API Key untuk '{self.provider}' belum diisi di .env!")
 
-        if self.provider == "openai":
-            return OpenAI(api_key=api_key)
-        
-        elif self.provider == "groq":
-            return Groq(api_key=api_key)
-        
-        elif self.provider == "gemini":
-            # genai.configure(api_key=api_key)
-            return genai.Client(api_key=api_key)
-        
+        if self.provider == "gpt-4o-mini":
+            return ChatOpenAI(
+                api_key=api_key,
+                model=self.config["model"],
+                temperature=self.config["temperature"],
+                max_tokens=self.config["max_tokens"]
+            )
+        elif self.provider == "llama-3.1-8b":
+            return ChatGroq(
+                groq_api_key=api_key,
+                model_name=self.config["model"],
+                temperature=self.config["temperature"],
+                max_tokens=self.config["max_tokens"]
+            )
+        elif self.provider == "llama-3.3-70b":
+            return ChatGroq(
+                groq_api_key=api_key,
+                model_name=self.config["model"],
+                temperature=self.config["temperature"],
+                max_tokens=self.config["max_tokens"]
+            )
+        elif self.provider == "gemini-2.5-flash":
+            return ChatGoogleGenerativeAI(
+                google_api_key=api_key,
+                model=self.config["model"],
+                temperature=self.config["temperature"],
+                max_output_tokens=self.config["max_tokens"]
+            )
         else:
-            raise ValueError(f"Provider '{self.provider}' tidak dikenali. Cek config.py")
+            raise ValueError(f"Provider '{self.provider}' tidak dikenali.")        
 
     def generate_response(self, prompt: str, system_instruction: str = "Anda adalah asisten yang membantu.") -> str:
         """
         Fungsi utama untuk mengirim prompt ke AI dan mendapatkan jawaban teks.
         """
         try:
-            # --- LOGIKA OPENAI ---
-            if self.provider == "openai":
-                response = self.client.chat.completions.create(
-                    model=self.config["model"],
-                    messages=[
-                        {"role": "system", "content": system_instruction},
-                        {"role": "user", "content": prompt}
-                    ],
-                    temperature=self.config["temperature"],
-                    max_tokens=self.config["max_tokens"]
-                )
-                
-                usage = response.usage
-                print(f"\n📊 [DEBUG OPENAI] Input: {usage.prompt_tokens} | Output: {usage.completion_tokens} | Total: {usage.total_tokens} tokens")
-                
-                return response.choices[0].message.content
-
-            # --- LOGIKA GROQ (Sama persis dengan OpenAI structure) ---
-            elif self.provider == "groq":
-                response = self.client.chat.completions.create(
-                    model=self.config["model"],
-                    messages=[
-                        {"role": "system", "content": system_instruction},
-                        {"role": "user", "content": prompt}
-                    ],
-                    temperature=self.config["temperature"],
-                    max_tokens=self.config["max_tokens"]
-                )
-                return response.choices[0].message.content
-
-            # --- LOGIKA GEMINI ---
-            elif self.provider == "gemini":
-                # Google kadang punya format prompt yang sedikit berbeda
-                response = self.client.models.generate_content(
-                    model=self.config["model"],
-                    contents=prompt,
-                    config=types.GenerateContentConfig(
-                        system_instruction=system_instruction,
-                        temperature=self.config["temperature"],
-                        max_output_tokens=self.config["max_tokens"]
-                    ),
-                )
-                return response.text
+            Messages = [
+                SystemMessage(content=system_instruction),
+                HumanMessage(content=prompt)
+            ]
+            
+            response = self.llm.invoke(Messages)
+            return response.content
 
         except Exception as e:
-            return f"❌ Error pada LLM ({self.provider}): {str(e)}"
+            raise ConnectionError(f"❌ Error response: {str(e)}")
