@@ -1,0 +1,81 @@
+
+        KONTEKS INFORMASI:
+        
+--- SUMBER 1 (Diagnosis COVID-19) ---
+# Diagnosis COVID-19
+
+Untuk menentukan apakah pasien terinfeksi COVID-19, dokter akan menanyakan gejala yang dialami pasien, riwayat perjalanan pasien, dan apakah sebelumnya pasien ada kontak dekat dengan orang yang diduga terinfeksi COVID-19.
+
+Setelah itu, dokter akan melakukan pemeriksaan berikut:
+
+• Rapid test antigen, untuk mendeteksi antigen yaitu protein yang ada di bagian terluar virus
+• Tes PCR (polymerase chain reaction) atau swab test, untuk mendeteksi virus Corona di dalam lapisan hidung
+• CT scan atau Rontgen dada, untuk mendeteksi infiltrat atau cairan di paru-paru
+• Tes darah lengkap, untuk memeriksa kadar sel darah putih dan C-reactive protein
+• Analisis gas darah, untuk memeriksa kadar oksigen dan karbon dioksida di dalam darah
+
+Perlu diketahui, rapid test pada COVID-19 hanya digunakan sebagai tes skrining atau pemeriksaan awal, bukan untuk memastikan diagnosis COVID-19. Hasil rapid test positif belum tentu menandakan Anda terkena COVID-19. Anda bisa saja mendapatkan hasil positif bila pernah terinfeksi virus lain atau Coronavirus jenis lain.
+
+Sebaliknya, hasil rapid test COVID-19 negatif juga belum tentu menandakan bahwa Anda terbebas dari COVID-19. Oleh sebab itu, apa pun hasil rapid test Anda, konsultasikan dengan dokter agar dapat diberikan pengarahan lebih lanjut, termasuk perlu tidaknya mengonfirmasi hasil tes tersebut dengan tes PCR. Biasanya tes PCR akan melampirkan hasil positif atau negatif dengan nilai CT value.
+
+--- SUMBER 2 (Pengobatan COVID-19) ---
+# Pengobatan COVID-19
+
+Sampai saat ini, belum ada obat yang secara pasti dapat mengatasi penyakit COVID-19. Jika Anda didiagnosis COVID-19 tetapi tidak mengalami gejala atau hanya mengalami gejala ringan, Anda cukup melakukan perawatan atau isolasi mandiri di rumah.
+
+Penting untuk diingat, ruangan isolasi harus memiliki ventilasi dan cahaya yang baik serta pertukaran udara yang cukup. Selain itu, ruangan isolasi juga wajib dibersihkan setiap hari dengan air sabun atau desinfektan.
+
+Selama isolasi mandiri, perhatikan beberapa hal berikut:
+
+• Lakukan isolasi mandiri selama 2 minggu dengan tidak keluar rumah dan menjaga jarak dengan orang dalam satu rumah.
+• Selalu gunakan masker jika keluar rumah atau saat akan berinteraksi dengan anggota keluarga.
+• Terapkan etika batuk.
+• Ukur suhu tubuh dua kali sehari, pagi dan malam hari.
+• Cuci tangan dengan sabun, air mengalir, atau hand sanitizer.
+• Banyak minum air putih untuk menjaga kadar cairan tubuh.
+• Istirahat yang cukup untuk mempercepat proses penyembuhan.
+• Konsumsi obat pereda batuk, demam, dan nyeri, setelah berkonsultasi dengan dokter.
+• Perhatikan gejala yang Anda alami dan segera hubungi dokter jika gejala memburuk.
+
+Penelitian menunjukkan bahwa pasien COVID-19 dengan gejala ringan dapat sembuh dalam 2 minggu. Namun, sebelum Anda mengakhiri isolasi mandiri dan kembali beraktivitas, tetap lakukan konsultasi dengan dokter untuk mengetahui apakah Anda sudah memenuhi kriteria sembuh dari COVID-19.
+
+Jika Anda didiagnosis COVID-19 dan mengalami gejala berat, dokter akan merujuk Anda untuk menjalani perawatan dan karantina di rumah sakit rujukan. Metode yang dapat dilakukan dokter antara lain:
+
+• Memberikan obat untuk mengurangi keluhan dan gejala
+• Memasang ventilator atau alat bantu napas guna mencukupi kebutuhan oksigen
+• Memberikan infus cairan agar tetap terhidrasi
+• Memberikan obat pengencer darah dan pencegah penggumpalan darah
+• Memberikan obat antiperadangan atau antiinterleukin-6 (IL-6)
+
+Selain metode di atas, penelitian terhadap beberapa jenis obat dan metode yang efektif untuk mengatasi COVID-19 masih terus dilakukan. Obat-obatan tersebut termasuk beberapa jenis antivirus, yaitu favipiravir, molnupiravir, dan remdesivir untuk melawan virus corona.
+
+Akan tetapi, hingga saat ini, penelitian menunjukkan bahwa obat antivirus belum terbukti efektif dalam mengobati COVID-19.
+
+--- SUMBER 3 (Mengobati dan Mencegah Long-Haul COVID-19 pada Anak) ---
+# Mengobati dan Mencegah Long-Haul COVID-19 pada Anak
+
+Jika Bunda dan Ayah mendapati Si Kecil mengalami gejala long-haul COVID-19, sebaiknya segera periksakan ia ke dokter. Untuk mengevaluasi kondisi Si Kecil, dokter akan melakukan pemeriksaan fisik dan pemeriksaan tambahan, seperti tes darah, tes swab antigen atau PCR, dan foto Rontgen dada.
+
+Setelah terdiagnosis mengalami long-haul COVID-19, dokter akan memberikan obat-obatan sesuai dengan kondisi anak.
+
+Jika anak mengalami gejala long-haul COVID-19 yang ringan, dokter akan memberikan obat-obatan untuk meredakannya, seperti paracetamol untuk meredakan demam dan nyeri, atau obat batuk untuk mengatasi batuk.
+
+Apabila long-haul COVID-19 yang dialami anak gejalanya lebih parah atau sudah menimbulkan MIS-C, dokter mungkin perlu merawat anak di rumah sakit.
+
+Untuk mengatasi kondisi tersebut, dokter bisa memberikan obat-obatan, seperti kortikosteroid dan IVIG, serta terapi oksigen jika anak mengalami sesak napas atau penurunan saturasi oksigen.
+
+Hingga saat ini, cara terbaik untuk mencegah anak terkena long-haul COVID-19 adalah dengan menghindari infeksi virus Corona. Oleh karena itu, Bunda dan Ayah perlu mengajarkan dan membiasakan Si Kecil disiplin menerapkan protokol kesehatan.
+
+Jika anak Bunda dan Ayah sudah berusia 12–17 tahun, ia bisa mendapatkan vaksin COVID-19. Jenis vaksin COVID-19 yang direkomendasikan untuk anak-anak di Indonesia adalah vaksin Sinovac dengan dosis pemberian sebanyak 2 kali dan jedanya 1 bulan.
+
+Bila masih memiliki pertanyaan terkait long-haul COVID-19 pada anak atau informasi seputar COVID-19, Bunda dan Ayah bisa chat langsung dengan dokter di aplikasi ALODOKTER. Melalui aplikasi ini, Bunda dan Ayah juga bisa membuat janji konsultasi dengan dokter di rumah sakit bila memerlukan pemeriksaan langsung.
+
+
+        PERTANYAAN PENGGUNA:
+        Apa yang kamu tahu tentang COVID-19?
+        
+
+--- SOURCES ---
+https://www.alodokter.com/covid-19
+https://www.alodokter.com/covid-19
+https://www.alodokter.com/mengenal-long-haul-covid-19-pada-anak

@@ -1,0 +1,23 @@
+
+        Tugasmu adalah memformulasi ulang pertanyaan atau pernyataan user agar bisa dipahami tanpa melihat chat history.
+        selayaknya pasien bertanya pada dokter. kalau menurutmu pertanyaan itu tidak ada hubungannya dengan chat sebelumnya, cukup ulangi pertanyaannya saja.
+                
+        Chat History:
+        assistant: Untuk mengobati flu, ada beberapa pilihan obat yang dapat digunakan tergantung pada gejala dan tingkat keparahannya. Berikut beberapa informasi tentang obat flu berdasarkan sumber yang ada:
+
+1. **Parasetamol atau Ibuprofen**: Jika flu disertai demam dan tidak enak badan, obat yang mengandung parasetamol atau ibuprofen seperti Panadol dapat membantu. Penggunaan obat ini harus sesuai dengan anjuran dokter atau aturan pada kemasan.
+
+2. **Panadol Cold & Flu Kaplet**: Mengandung paracetamol, kafein, dan phenylephrine, efektif untuk menurunkan demam, meredakan sakit kepala, dan mengatasi hidung tersumbat. Dosis yang dianjurkan adalah 1-2 kaplet setiap 4-6 jam, maksimal 8 kaplet per hari.
+
+3. **OBH Combi Batuk Plus Flu Madu**: Merupakan obat flu dewasa yang mengandung kombinasi bahan aktif untuk meredakan batuk dan gejala flu lainnya. Dosis yang dianjurkan adalah 15 ml, 3 kali sehari, setelah makan.
+
+4. **Obat Antivirus**: Untuk flu dengan gejala berat atau berisiko komplikasi, dokter mungkin meresepkan obat antivirus seperti oseltamivir, peramivir, atau zanamivir.
+
+Perlu diingat bahwa sebelum mengonsumsi obat, terutama jika Anda memiliki kondisi kesehatan tertentu atau sedang hamil/menyusui, sebaiknya konsultasikan dengan dokter. Ini untuk memastikan bahwa obat yang dipilih aman dan efektif untuk Anda.
+
+**Disclaimer: Saya bukan pengganti dokter. Informasi ini dimaksudkan untuk memberikan gambaran umum dan tidak boleh dianggap sebagai saran medis. Selalu konsultasikan dengan profesional kesehatan untuk diagnosis dan pengobatan yang tepat.**
+        
+        Pertanyaan Baru User: apa yang kamu tau tentang covid-19
+        
+        Pertanyaan/pernyataan yang Diformulasi Ulang (Hanya tulis pertanyaannya, jangan ada basa-basi):
+        
